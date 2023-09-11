@@ -1,6 +1,6 @@
 import 'package:figma2/Screens/DayVision/StartingScreen.dart';
-import 'package:figma2/Screens/DayVision/Welcome.dart';
-import 'package:figma2/Screens/DayVision/course.dart';
+
+
 
 import 'package:flutter/material.dart';
 
@@ -13,6 +13,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: Welcome());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: Start());
   }
 }
